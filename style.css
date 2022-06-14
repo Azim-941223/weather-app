@@ -48,8 +48,13 @@ fieldset{
 select{
     background-color: #47BFDF;
     width: 170%;
-    height: 4vh;
+    height: 100%;
     border: 1px solid #47BFDF;
+}
+@media (max-width:991px) {
+    header{
+        height: 15vh;
+    }
 }
 /* ---------------main---------------- */
 .sun{
@@ -125,6 +130,11 @@ select{
     margin-left: 22%;
     justify-content: space-between;
 }
+@media (max-width:991px) {
+    .info{
+        height: 70vh;
+    }
+}
 /* ---------------footer------------ */
 
 
@@ -143,6 +153,7 @@ select{
     }
 }
 
+
 button{
     width: 70%;
     height: 8vh;
@@ -158,6 +169,13 @@ button{
 .infoData{
     display: flex;
     justify-content: center;
+}
+@media (max-width:991px) {
+    button{
+        height: 15vh;
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
 }
 
 /* ---------it's second page from weather--------------- */
