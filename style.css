@@ -51,11 +51,7 @@ select{
     height: 100%;
     border: 1px solid #47BFDF;
 }
-@media (max-width:991px) {
-    header{
-        height: 15vh;
-    }
-}
+
 /* ---------------main---------------- */
 .sun{
     text-align: center;
@@ -81,12 +77,14 @@ select{
     padding-bottom: 8%;
     height: 30vh;
 }
-@media(max-width:576px){
+
+
+@media (max-width:991px) {
     .info{
-        height: 35vh;
+        height: 30vh;
     }
 }
-@media(max-width:768px) {
+@media(max-width:576px) {
     .info{
         height: 35vh;
     }
@@ -132,11 +130,7 @@ select{
     margin-left: 22%;
     justify-content: space-between;
 }
-@media (max-width:991px) {
-    .info{
-        height: 70vh;
-    }
-}
+
 /* ---------------footer------------ */
 
 
@@ -151,7 +145,7 @@ select{
 }
 @media(max-width:768px) {
     .nuv{
-        margin-top: 7%;
+        margin-top: 5%;
     }
 }
 
@@ -172,11 +166,18 @@ button{
     display: flex;
     justify-content: center;
 }
-@media (max-width:991px) {
+@media (max-width:768px) {
     button{
-        height: 15vh;
+        height: 10vh;
         margin-top: 4%;
         margin-bottom: 5%;
+    }
+}
+@media (max-width:991px) {
+    button{
+        height: 10vh;
+        margin-top: 2%;
+        margin-bottom: 3%;
     }
 }
 
