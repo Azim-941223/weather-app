@@ -16,11 +16,9 @@ let url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}
 manager(url)
 
 $select.addEventListener('change', function(){
-    console.log($select.selectedIndex)
     let index = $select.selectedIndex
     lat = city[index].lat
     lon = city[index].lon
-    console.log(lat,lon)
     let url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=metric&lang=ru&appid=${key}`
     manager(url)
 })
