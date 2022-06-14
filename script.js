@@ -1,9 +1,7 @@
 let key = '3156508244a5aaca0733f7d6e9a585d7'
 
-// let url = `https://api.openweathermap.org/data/2.5/onecall?lat=42.88&lon=74.58&units=metric&&lang=ru&appid=${key}`
 
-
-let city = [{lat: 42.88,lon: 74.58},{lat: 40.5140,lon: 72.8161},{lat: 42.4782,lon: 78.3956},{lat: 42.5318,lon: 72.2305},{lat: 41.4274,lon: 75.9841},{lat: 40.0548,lon: 70.8209},]
+let city = [{lat: 42.88,lon: 74.58},{lat: 40.5140,lon: 72.8161},{lat: 42.4782,lon: 78.3956},{lat: 42.5318,lon: 72.2305},{lat: 41.4274,lon: 75.9841},{lat: 40.0548,lon: 70.8209},{lat: 40.9332,lon: 72.9815},{lat: 42.4625,lon: 76.1900},{lat: 42.6503,lon: 77.0852},]
 
 
 
