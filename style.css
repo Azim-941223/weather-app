@@ -91,6 +91,7 @@ select{
         height: 35vh;
     }
 }
+
 .info_data{
     text-align: center;
 }
@@ -114,6 +115,7 @@ select{
     line-height: 30px;
     text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.3);
 }
+
 
 .wind{
     display: flex;
